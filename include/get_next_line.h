@@ -17,6 +17,12 @@
 # include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 int		get_next_line(int fd, char **line);
 char	*ft_strjoin(char *s1, char *s2);
